@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText android:id="@+id/etLastName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Фамилия"/>
+    <EditText android:id="@+id/etFirstName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Имя"/>
+    <EditText android:id="@+id/etMiddleName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Отчество"/>
+    <EditText android:id="@+id/etDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Дата рождения" android:focusable="false"/>
+    <Spinner android:id="@+id/spGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Сохранить"/>
+    <Button android:id="@+id/btnCancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Отмена"/>
+</LinearLayout>
